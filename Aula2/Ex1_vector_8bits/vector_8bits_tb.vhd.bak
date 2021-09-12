@@ -1,0 +1,28 @@
+-- Project: 12 bits multiplier
+-- Author: Renan de Brito Leme
+-- Date: 07/27/2021
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity vector_8bits_tb is
+    Port(
+        output: out std_logic_vector(7 downto 0)		
+    );
+end vector_8bits_tb;
+
+Architecture behavioral of vector_8bits_tb is
+begin
+    process
+    begin
+        output <=	"ZZZZZZZZ";
+        wait for 10 ns;
+        output <=	"00000000";
+        wait for 10 ns;	
+        output <=	"10100100";
+        wait for 10 ns;
+        output <=	"ZZZZZZZZ";
+        wait;
+    end process;
+end behavioral;

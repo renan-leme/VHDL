@@ -1,0 +1,41 @@
+-- Project: Generic RAM
+-- Author: Renan de Brito Leme
+-- Date: 07/31/2021
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity generic_RAM is
+    port(
+        clk ,we, ce : in  std_logic;
+        RAM_address : in  std_logic_vector (7 downto 0);
+        RAM_input   : in  std_logic_vector (7 downto 0);
+        RAM_output  : out std_logic_vector (7 downto 0)
+    );
+end generic_RAM;
+
+architecture behavioral of generic_RAM is
+    
+    type vector_of_vector is array ((2**RAM_adress'lenght)-1 downto 0) of std_logic_vector((2**RAM_input'lenght)-1 downto 0);
+    signal memory      : vector_of_vector;
+    --signal RAM_in   : std_logic_vector((2**RAM_input'lenght)-1 downto 0);
+    --signal RAM_out  : std_logic_vector((2**RAM_output'lenght)-1 downto 0);
+    --signal RAM_addr : std_logic_vector((2**RAM_adress'lenght)-1 downto 0);
+
+begin
+
+    RAM_processs: process(clk) is
+        begin
+          if rising_edge(clk) then
+            if we = '0' then
+              memory(to_unsigned(RAM_address)) <= RAM_input;
+            end if;
+          end if;
+    end process RAM_processs;
+      
+    RAM_output <= memory(to_unsigned(RAM_address));
+
+
+end behavioral;

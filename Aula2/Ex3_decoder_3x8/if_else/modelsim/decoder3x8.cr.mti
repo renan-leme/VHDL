@@ -1,0 +1,21 @@
+{D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/if_else/decoder3x8_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/if_else/decoder3x8_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder3x8_tb
+-- Compiling architecture stimulus of decoder3x8_tb
+
+} {} {}} {D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/if_else/decoder3x8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/if_else/decoder3x8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity decoder3x8
+-- Compiling architecture behavioral of decoder3x8
+
+} {} {}}

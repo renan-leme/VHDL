@@ -1,0 +1,142 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/modelsim
+Eadder_subtractor_4bits
+Z1 w1627353361
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 18
+R0
+Z7 8D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/adder_subtractor_4bits.vhd
+Z8 FD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/adder_subtractor_4bits.vhd
+l0
+L10 1
+VD5`hOA1a9S;WO@1;EP2LE2
+!s100 U`?50A2Kzi:=FlDV_;@<;3
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1627353370
+!i10b 1
+Z11 !s108 1627353369.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/adder_subtractor_4bits.vhd|
+Z13 !s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/adder_subtractor_4bits.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 22 adder_subtractor_4bits 0 22 D5`hOA1a9S;WO@1;EP2LE2
+!i122 18
+l31
+Z17 L19 27
+Z18 VXESX4hGIG0jcGM7TPXkgi0
+Z19 !s100 lKAK2l`Bkbb35B1YbLhHR2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eadder_subtractor_4bits_tb
+Z20 w1627353042
+R4
+R5
+R6
+!i122 13
+R0
+Z21 8D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\adder_subtrator_4bits\adder_subtractor_4bits_tb.vhd
+Z22 FD:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\adder_subtrator_4bits\adder_subtractor_4bits_tb.vhd
+l0
+L9 1
+VKOnZ]PWgezfST]Tj=^Xi^0
+!s100 D`D<ZdLHfH2TBm7Io9MlS2
+R9
+32
+Z23 !s110 1627353046
+!i10b 1
+Z24 !s108 1627353045.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\adder_subtrator_4bits\adder_subtractor_4bits_tb.vhd|
+Z26 !s107 D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\adder_subtrator_4bits\adder_subtractor_4bits_tb.vhd|
+!i113 1
+R14
+R15
+Astimulus
+R4
+R5
+R6
+DEx4 work 25 adder_subtractor_4bits_tb 0 22 KOnZ]PWgezfST]Tj=^Xi^0
+!i122 13
+l28
+L12 52
+VdH5LPB;aFfSTNNSW<FM?c3
+!s100 N=S5aP09j:U`XfezFG3AG0
+R9
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R14
+R15
+Efulladder_4bits
+Z27 w1627345702
+R5
+R6
+!i122 5
+R0
+Z28 8D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/fulladder_4bits.vhd
+Z29 FD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/fulladder_4bits.vhd
+l0
+L8 1
+VlZURez60I[6PX`Q6F:e`23
+!s100 h6GEU4Lg1<AHehT:ePKGE2
+R9
+32
+Z30 !s110 1627349747
+!i10b 1
+Z31 !s108 1627349747.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/fulladder_4bits.vhd|
+Z33 !s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/fulladder_4bits.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R5
+R6
+DEx4 work 15 fulladder_4bits 0 22 lZURez60I[6PX`Q6F:e`23
+!i122 5
+l16
+L15 5
+V0MSacXSIhALA4AFBJefOl3
+!s100 ^Lg`B9Y]_UXgj69@lae@U0
+R9
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R14
+R15

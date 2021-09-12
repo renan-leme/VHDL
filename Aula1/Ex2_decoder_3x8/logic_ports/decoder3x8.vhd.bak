@@ -1,0 +1,31 @@
+-- Project: 3x8 bits decoder using LOGIC PORTS
+-- Author: Renan de Brito Leme
+-- Date: 07/26/2021
+
+library IEEE;
+	use IEEE.std_logic_1164.all;
+	use IEEE.numeric_std.all;
+	use IEEE.std_logic_unsigned.all;
+
+entity decoder3x8 is
+	port(
+		data_in	 : 	in	std_logic_vector(2 downto 0);
+		data_out :	out	std_logic_vector(7 downto 0)
+	);
+end decoder3x8;
+
+architecture behavioral of decoder3x8 is
+
+begin
+
+	data_out(0) <= "00000001";
+	data_out(1) <= "00000010";
+	data_out(1) <= "00000100";
+	data_out(2) <= "00001000";
+	data_out(3) <= "00010000";
+	data_out(4) <= "00100000";
+	data_out(5) <= "01000000";
+	data_out(6) <= "10000000";
+	data_out(7) <= "ZZZZZZZZ";
+
+end behavioral;

@@ -1,0 +1,95 @@
+# Compile of decoder3x8.vhd failed with 9 errors.
+# Compile of decoder3x8_tb.vhd was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of decoder3x8.vhd was successful.
+vsim -gui work.decoder3x8_tb
+# vsim -gui work.decoder3x8_tb 
+# Start time: 20:37:34 on Jul 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder3x8_tb(stimulus)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.decoder3x8(behavioral)
+add wave -position insertpoint  \
+sim:/decoder3x8_tb/data_in_tb \
+sim:/decoder3x8_tb/data_out_tb
+run
+quit -sim
+# End time: 20:38:00 on Jul 26,2021, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 6
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project adder_subtrator_4bits
+# Compile of adder_subtractor_4bits.vhd failed with 8 errors.
+# Compile of adder_subtractor_4bits_tb.vhd was successful.
+# Compile of fulladder_4bits.vhd was successful.
+# 3 compiles, 1 failed with 8 errors.
+# Compile of adder_subtractor_4bits.vhd failed with 9 errors.
+# Compile of adder_subtractor_4bits.vhd was successful.
+vsim -gui work.adder_subtractor_4bits_tb
+# vsim -gui work.adder_subtractor_4bits_tb 
+# Start time: 22:24:12 on Jul 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.adder_subtractor_4bits_tb(stimulus)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder_subtractor_4bits(behavioral)
+# Loading work.fulladder_4bits(behavioral)
+# ** Warning: (vsim-8684) No drivers exist on out port /adder_subtractor_4bits_tb/DUT/R(7 downto 4), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /adder_subtractor_4bits_tb/R_tb(7 downto 4).
+add wave -position insertpoint  \
+sim:/adder_subtractor_4bits_tb/OP_tb \
+sim:/adder_subtractor_4bits_tb/A_tb \
+sim:/adder_subtractor_4bits_tb/B_tb \
+sim:/adder_subtractor_4bits_tb/R_tb \
+sim:/adder_subtractor_4bits_tb/Cout_tb \
+sim:/adder_subtractor_4bits_tb/OV_tb
+run
+quit -sim
+# End time: 22:26:53 on Jul 26,2021, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 8
+# Compile of adder_subtractor_4bits.vhd was successful.
+vsim -gui work.adder_subtractor_4bits_tb
+# vsim -gui work.adder_subtractor_4bits_tb 
+# Start time: 22:27:24 on Jul 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.adder_subtractor_4bits_tb(stimulus)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder_subtractor_4bits(behavioral)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (8) for port "/adder_subtractor_4bits_tb/DUT/R".
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_4bits_tb/DUT File: D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/adder_subtractor_4bits.vhd Line: 14
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 22:27:25 on Jul 26,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of adder_subtractor_4bits.vhd was successful.
+# Compile of adder_subtractor_4bits_tb.vhd was successful.
+# Compile of fulladder_4bits.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.adder_subtractor_4bits_tb
+# vsim -gui work.adder_subtractor_4bits_tb 
+# Start time: 22:28:05 on Jul 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.adder_subtractor_4bits_tb(stimulus)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder_subtractor_4bits(behavioral)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (8) for port "/adder_subtractor_4bits_tb/DUT/R".
+#    Time: 0 ps  Iteration: 0  Instance: /adder_subtractor_4bits_tb/DUT File: D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/adder_subtrator_4bits/adder_subtractor_4bits.vhd Line: 14
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 22:28:06 on Jul 26,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2

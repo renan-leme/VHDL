@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Emultiplier_12bits
+Z0 w1627427777
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z4 dD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex3/multiplier_12bits/modelsim
+Z5 8D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits.vhd
+Z6 FD:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits.vhd
+l0
+L9 1
+VB7JO=3Acc71GllNLdhN1T2
+!s100 8ZOQ>``UU7W41W3h`4UnA0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1627427784
+!i10b 1
+Z9 !s108 1627427784.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits.vhd|
+Z11 !s107 D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 17 multiplier_12bits 0 22 B7JO=3Acc71GllNLdhN1T2
+!i122 2
+l20
+L19 4
+VQ7V6n3NHkFAciReLd>C_d2
+!s100 @eR30aP_WnoSVKh`N[Y2>2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emultiplier_12bits_tb
+Z14 w1627427774
+R1
+R2
+R3
+!i122 3
+R4
+Z15 8D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits_tb.vhd
+Z16 FD:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits_tb.vhd
+l0
+L9 1
+VGH6PJzD8I2Tg9_GXW=UH<3
+!s100 7[n<6W]zTg^i@010LeQMW1
+R7
+32
+Z17 !s110 1627427785
+!i10b 1
+Z18 !s108 1627427785.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits_tb.vhd|
+!s107 D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z20 DEx4 work 20 multiplier_12bits_tb 0 22 GH6PJzD8I2Tg9_GXW=UH<3
+!i122 3
+l26
+Z21 L12 34
+V^0_R``;N8zTM6zY>?a]9X1
+!s100 HeVLLSLLJd2dndVDPDhR63
+R7
+32
+R17
+!i10b 1
+R18
+R19
+Z22 !s107 D:\Users\renan\Desktop\Sistemas embarcados e IoT\UNISAL\4 - Eletronica embarcada com FPGAs\Eletronica Embarcada com FPGA - Tafas\aula 1\Exercicios\Ex3\multiplier_12bits\multiplier_12bits_tb.vhd|
+!i113 1
+R12
+R13

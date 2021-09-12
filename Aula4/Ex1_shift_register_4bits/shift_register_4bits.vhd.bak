@@ -1,0 +1,45 @@
+--Shift Register usando usando for loop
+--Autor: Luiz Cesar
+--Data 03 10 2020
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+--entidade
+entity sht_reg is
+	Port (
+			clk: in std_logic;
+			rst: in std_logic;			
+			d: in std_logic;
+			data_out:out std_logic_vector(3 downto 0)
+			);
+			
+end sht_reg;
+
+--arquitetura
+Architecture behavior of sht_reg is
+
+--sinais
+signal q: std_logic_vector (3 downto 0);
+
+--processo
+begin
+	process(clk, rst)
+		begin
+			
+				if rst = '1' then
+					q <= "0000";
+				elsif clk'event and clk = '1' then
+					q(0) <= d;
+					q(1) <= q(0);
+					q(2) <= q(1);
+					q(3) <= q(2);
+				end if;
+	end process;
+
+--saida	
+data_out <= q;
+
+end behavior;

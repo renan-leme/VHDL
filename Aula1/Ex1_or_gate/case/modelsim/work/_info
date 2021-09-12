@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/when_else/modelsim
+Eor_gate
+Z0 w1627262174
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+Z4 dD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/modelsim
+Z5 8D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate.vhd
+Z6 FD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate.vhd
+l0
+L9 1
+VTh4U[Y2@zNfLYRE[^NQBe2
+!s100 lb]6g@?bCYeR0;fP2SUL:2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1627262176
+!i10b 1
+Z9 !s108 1627262175.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate.vhd|
+!s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 7 or_gate 0 22 Th4U[Y2@zNfLYRE[^NQBe2
+!i122 7
+l18
+L16 27
+VH8NbeZggMDQMg5V9;?:Zo3
+!s100 VZ_SadaV_<Kh@6aQ`Wje=1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate.vhd|
+!i113 1
+R11
+R12
+Eor_gate_tb
+Z14 w1627261701
+R1
+R2
+R3
+!i122 3
+R4
+Z15 8D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate_tb.vhd
+Z16 FD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate_tb.vhd
+l0
+L9 1
+V1GZ2IN;GaDZf=F93nfCb83
+!s100 ze`IT9IDD4:`5bHkTMVg01
+R7
+32
+Z17 !s110 1627261849
+!i10b 1
+Z18 !s108 1627261849.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate_tb.vhd|
+Z20 !s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex1/case/or_gate_tb.vhd|
+!i113 1
+R11
+R12
+Astimulus
+R1
+R2
+R3
+DEx4 work 10 or_gate_tb 0 22 1GZ2IN;GaDZf=F93nfCb83
+!i122 3
+l24
+L12 34
+V^ZK:OD3@jWP1d9hLYbcGY1
+!s100 KjC;zAPS]`38@z;hZRWo<3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12

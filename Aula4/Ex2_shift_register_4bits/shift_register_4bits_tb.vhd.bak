@@ -1,0 +1,82 @@
+--Shift Register tb
+--Autor: Luiz Cesar
+--Data 03 10 2020
+
+library IEEE;
+	use IEEE.std_logic_1164.all;
+	use IEEE.numeric_std.all;
+
+--declaramos a entidade
+entity modelo_sr_tb is
+end modelo_sr_tb;
+
+--a arquitetura
+architecture behavioral of modelo_sr_tb is
+
+	------------------------Não Mexer------------------------------
+	signal clock : std_logic; 
+	signal estimulo        : std_logic;
+	signal s_en        : std_logic;
+	
+	signal output_a: std_logic_vector(3 downto 0);
+	signal output_b: std_logic_vector(3 downto 0);
+	signal output_c: std_logic_vector(3 downto 0);
+	
+	--sinais criados
+	
+	signal s_rst: std_logic;
+	
+	----------------------------Mexer------------------------------
+	--declarar sinais para ligar a entidade aqui.
+	component sht_reg
+		generic(
+			bit_input_size : integer := 4 
+		);
+		port(
+			clk: in std_logic;
+			rst: in std_logic;
+			en: in std_logic;
+			d: in std_logic;
+			data_out_a: out std_logic_vector(3 downto 0);
+			data_out_b: out std_logic_vector(3 downto 0);
+			data_out_c: out std_logic_vector(3 downto 0)
+		);
+	end component;
+
+
+begin
+
+	------------------------Não Mexer------------------------------
+	--vamos criar um estímulo. duas partes. uma, rodar o vetor e a outra gerar o sinal "estimulo"
+	--que deve ser ligado ao shift register
+
+
+	----------------------------Mexer------------------------------
+	--gerar sinal de relógio chamado 'clock' aqui.
+	clk_process: process
+	begin
+		clock<= '0';
+		s_rst<='0';
+		wait for 10 ns;
+		clock<= '1';
+		s_rst<='1';
+		wait for 10 ns;		
+	end process;
+
+	
+	--colocar o componente do seu ShiftRegister aqui.
+	DUT : sht_reg
+		port map(
+			
+			clk => clock,
+			rst => s_rst,
+			en => s_en,
+			d => estimulo,
+			data_out_a => output_a,
+			data_out_b => output_b,
+			data_out_c => output_c
+
+		);
+
+end behavioral;				
+		

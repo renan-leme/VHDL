@@ -1,0 +1,51 @@
+# Compile of or_gate.vhd failed with 1 errors.
+# Compile of or_gate_tb.vhd was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of or_gate.vhd failed with 1 errors.
+# Compile of or_gate_tb.vhd was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of or_gate.vhd failed with 1 errors.
+# Compile of or_gate.vhd failed with 1 errors.
+# Compile of or_gate.vhd failed with 1 errors.
+# Compile of or_gate.vhd was successful.
+vsim -gui work.or_gate_tb
+# vsim -gui work.or_gate_tb 
+# Start time: 22:16:30 on Jul 25,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.or_gate_tb(stimulus)
+# Loading work.or_gate(behavioral)
+add wave -position insertpoint  \
+sim:/or_gate_tb/data_in_tb \
+sim:/or_gate_tb/data_out_tb
+run
+quit -sim
+# End time: 22:16:51 on Jul 25,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 10
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project or_gate_tb
+# Compile of or_gate.vhd failed with 17 errors.
+# Compile of or_gate_tb.vhd was successful.
+# 2 compiles, 1 failed with 17 errors.
+# Compile of or_gate.vhd failed with 32 errors.
+# Compile of or_gate.vhd failed with 32 errors.
+# Compile of or_gate.vhd was successful.
+vsim -gui work.or_gate_tb
+# vsim -gui work.or_gate_tb 
+# Start time: 22:43:43 on Jul 25,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.or_gate_tb(behavioral_tb)
+# Loading work.or_gate(behavioral)
+add wave -position insertpoint  \
+sim:/or_gate_tb/data_in_tb \
+sim:/or_gate_tb/data_out_tb
+run
+quit -sim
+# End time: 22:44:05 on Jul 25,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 8
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini

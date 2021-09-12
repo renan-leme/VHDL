@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/if_else/modelsim
+Edecoder3x8
+Z0 w1627342635
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z6 dD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/modelsim
+Z7 8D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8.vhd
+Z8 FD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8.vhd
+l0
+L10 1
+VMUi4oi_a6`;PfGSb0n5:]0
+!s100 3K;jZCa`kfD6hJUEda9@O3
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1627342642
+!i10b 1
+Z11 !s108 1627342642.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8.vhd|
+!s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 decoder3x8 0 22 MUi4oi_a6`;PfGSb0n5:]0
+!i122 2
+l19
+L17 14
+VNUk7KZKI>0m6Da=LhZPUU0
+!s100 Zno^]=VBnn]BoZOn7MSK?1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+Z15 !s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8.vhd|
+!i113 1
+R13
+R14
+Edecoder3x8_tb
+Z16 w1627340443
+R3
+R4
+R5
+!i122 1
+R6
+Z17 8D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8_tb.vhd
+Z18 FD:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8_tb.vhd
+l0
+L9 1
+VObk34beQQG9IYW<bGBoM^2
+!s100 ljee[JAbmHh^7Qj=@O5]62
+R9
+32
+Z19 !s110 1627342148
+!i10b 1
+Z20 !s108 1627342148.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8_tb.vhd|
+Z22 !s107 D:/Users/renan/Desktop/Sistemas embarcados e IoT/UNISAL/4 - Eletronica embarcada com FPGAs/Eletronica Embarcada com FPGA - Tafas/aula 1/Exercicios/Ex2_decoder_3x8/logic_ports/decoder3x8_tb.vhd|
+!i113 1
+R13
+R14
+Astimulus
+R3
+R4
+R5
+DEx4 work 13 decoder3x8_tb 0 22 Obk34beQQG9IYW<bGBoM^2
+!i122 1
+l24
+L12 26
+VTDAZ[4bW9[`T=VQ=XRC``0
+!s100 E>hi^3<6]`P6A4IGW65C82
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
